@@ -9,6 +9,15 @@ export default function Home() {
       </header>
 
       <main>
+        <section aria-labelledby="semester-heading">
+          <h2 id="semester-heading">This semester</h2>
+          <ul>
+            <li>SLS 480E</li>
+            <li>my AIR project</li>
+            <li>learning to speak in conversational Japanese</li>
+          </ul>
+        </section>
+
         <section aria-labelledby="about-heading">
           <h2 id="about-heading">About</h2>
           <p>
@@ -18,28 +27,11 @@ export default function Home() {
             a lot out, and I&apos;m grateful for the chance to keep learning.
           </p>
         </section>
-
-        <section aria-labelledby="semester-heading">
-          <h2 id="semester-heading">This semester</h2>
-          <ul>
-            <li>
-              Taking a course on second language acquisition and how learners
-              develop a new language over time.
-            </li>
-            <li>
-              Reading about bilingualism and how language use shifts across
-              communities and settings.
-            </li>
-            <li>
-              Joining conversation practice sessions on campus to keep my
-              speaking skills sharp.
-            </li>
-          </ul>
-        </section>
       </main>
 
       <footer>
         <p>&copy; {year} Shadic B</p>
+        <p>Built with Claude Code</p>
       </footer>
     </>
   );
